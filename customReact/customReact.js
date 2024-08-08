@@ -35,9 +35,11 @@ function customReact(newElement, container) {
     const domElement = document.createElement(newElement.type)
     domElement.innerHTML = newElement.children
     for(const prop in props) {
-        if(props == children) continue;
-        
+        if(prop === 'children') continue;
+        domElement.setAttribute(prop, newElement.props
+            [prop])
     }
+    container.appendChild(domElement)
 }
 
 const newElement = {
