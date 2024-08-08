@@ -5,7 +5,6 @@ import './App.css'
 
 const display = (value) => {
   console.log(value);
-  
 }
 
 function App() {
@@ -41,9 +40,6 @@ function App() {
         <button onClick = {() => display('+')}>+</button>
         <button onClick = {() => display('-')}>-</button>
         <button onClick = {() => display('').display('')}>*</button>
-
-      
-    
       </div>
      
     </>
