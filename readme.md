@@ -12,9 +12,9 @@ jsx rule => el hi element return kr skte ho
 Vite mai Function ka name capital letter se start hone chahiye but y same cheez dusri command jo without vite h uspe  applicable nhi h
 
 why hooks were introduced?
-as we write any varibale or print it its value remains constant but when there would be some change in variable it was not updated in UI
+as we write any variable or print it its value remains constant but when there would be some change in variable it was not updated in UI
 in that case, hooks were introduced to give that output in UI also => for this we use useStates from react
 
 to clean cache:- npm cache clean --force
 
-command to init tailwind => npx tailwindcss init -p
+command to init tailwind => 
