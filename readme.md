@@ -16,3 +16,5 @@ as we write any varibale or print it its value remains constant but when there w
 in that case, hooks were introduced to give that output in UI also => for this we use useStates from react
 
 to clean cache:- npm cache clean --force
+
+command to init tailwind => npx tailwindcss init -p
