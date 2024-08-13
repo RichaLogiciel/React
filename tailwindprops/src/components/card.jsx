@@ -1,6 +1,6 @@
 
 function Card({username,btnText="click me",description,ddetails,price}) {
-    console.log(username);
+    // console.log(username);
     return (
         <div className="flex font-sans  mb-6">
   <div className="flex-none w-48 relative">
