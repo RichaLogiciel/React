@@ -1,14 +1,22 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+// import img from '/1.jpg'
+import Card from './components/card'
 
 import './App.css'
 
+
 function App() {
+
+  // let newArray = [1,2,3]
+  // const myObj= {
+  //   username: "Richa",
+  //   age: 21
+  // }
   return (
-    <>
-      <h1 className='text-9xl text-red-700 tracking-widest underline decoration-double'>hey</h1>
-    <p className='text-ellipsis text-9xl '>This is a paragraph</p>
+    <>  
+      <Card username="Paint Castle" btnText="Click me" description="This is a painting demo" ddetails="Delievery Details" price="$500"/>
+      <Card username="richa"  />
     </>
   )
 }
