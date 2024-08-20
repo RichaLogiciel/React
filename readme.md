@@ -18,3 +18,7 @@ in that case, hooks were introduced to give that output in UI also => for this w
 to clean cache:- npm cache clean --force
 
 command to init tailwind => 
+
+
+
+##onclick ko hmesha ek function chahiye na uski return value na 
