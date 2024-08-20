@@ -19,6 +19,4 @@ to clean cache:- npm cache clean --force
 
 command to init tailwind => 
 
-
-
-##onclick ko hmesha ek function chahiye na uski return value na 
+##onclick ko hmesha ek function chahiye na uski return value na parameter nhi pass kr skte function
