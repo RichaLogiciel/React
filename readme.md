@@ -24,16 +24,27 @@ command to init tailwind =>
 <!-- Jo cheez variable hoti h change hoti rehti h uske liye hooks use krte hai means useState lgta hai wha -->
 
 #Hooks
+
 useState
+
 useEffect 
 syntax:-
 useEffect(setup,dependencies?)
+
 useContext
+
 useCallback => cache memory me data store krlo jitne use krna h krlo 
 syntax:- useCallback(fn, dependencies(in the form of array))
+
+useRef => jb kisi b cheez ka mujhe reference lena hota hai tb y use hota hai
+
+syntax:- useRef(initialValue)
 
  onChange={ () => {
               setAllowedCharacter((prev) => !prev);
             } }
 
             isme hum arrow function likhte h bcz age fn() => param ni pass kr skte second kyuki hum isme parameter access kr skte hain 
+
+  tailwind commands:- npm install -D tailwindcss postcss autoprefixer
+  
